@@ -15,7 +15,3 @@ object ApiService {
         return Gson().fromJson(json, Array<Show>::class.java).toList()
     }
 }
-
-data class ShowsResponse(
-    val events: List<Show>
-)

@@ -1,7 +1,5 @@
 package com.example.shows.data
 
-import java.util.*
-
 data class Show(
     val id: Int,
     val title: String,

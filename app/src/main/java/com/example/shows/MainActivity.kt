@@ -35,7 +35,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun ShowList(shows: List<Show>) {
-    val coroutineScope = rememberCoroutineScope()
     val selectedShow = remember { mutableStateOf<Show?>(null) }
 
     LazyColumn {
